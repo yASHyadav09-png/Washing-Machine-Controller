@@ -68,32 +68,14 @@ The design is verified using a **self-checking Verilog testbench**.
 
 * ✅ Normal Wash Cycle
 * ✅ Pause / Resume
-* ✅ Cancel Operation
 * ✅ Door Safety / Error
-* ✅ Mode Verification
 * ✅ Reset Verification
-
----
-
-## 📷 Results
-
-### RTL Schematic
-
-![RTL Schematic](docs/images/top_module_schematic.png)
-
-### Simulation Waveform
-
-![Waveform](docs/images/tc1_normal_cycle.png)
-
----
 
 ## 🛠️ Tools
 
 * Verilog HDL
 * Xilinx Vivado 2025.2
 * Git & GitHub
-
----
 
 ## 👨‍💻 Author
 
