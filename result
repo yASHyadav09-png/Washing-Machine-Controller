@@ -1,0 +1,334 @@
+Time resolution is 1 ps
+========================================
+Washing Machine Verification Started
+========================================
+[25000] Reset Completed
+
+========================================
+TC1 : NORMAL WASH CYCLE
+T=25000 State=IDLE Busy=0 Fill=0 Drain=0 Wash=0 Spin=0 Done=0 Error=0
+T=25000 State=IDLE Count=0 Timer=0 Done=0 Restart=0 Enable=0
+[45000] PASS : Normal Mode Latched
+T=45000 State=FILL_WASH Busy=1 Fill=1 Drain=0 Wash=0 Spin=0 Done=0 Error=0
+T=45000 State=FILL_WASH Count=0 Timer=0 Done=0 Restart=0 Enable=0
+[46000] PASS : Entered FILL_WASH
+[46000] PASS : Fill Valve
+[46000] PASS : Drain Valve
+[46000] PASS : Wash Motor
+[46000] PASS : Spin Motor
+[46000] PASS : Busy
+[46000] PASS : Done
+[46000] PASS : Error
+[46000] PASS : Door Lock
+T=46000 State=FILL_WASH Count=0 Timer=0 Done=0 Restart=1 Enable=0
+T=55000 State=WASH Busy=1 Fill=0 Drain=0 Wash=1 Spin=0 Done=0 Error=0
+T=55000 State=WASH Count=0 Timer=10 Done=0 Restart=0 Enable=1
+[56000] PASS : Entered WASH
+[56000] PASS : Fill Valve
+[56000] PASS : Drain Valve
+[56000] PASS : Wash Motor
+[56000] PASS : Spin Motor
+[56000] PASS : Busy
+[56000] PASS : Done
+[56000] PASS : Error
+[56000] PASS : Door Lock
+[56000] PASS : Timer Enabled
+T=65000 State=WASH Count=1 Timer=10 Done=0 Restart=0 Enable=1
+T=75000 State=WASH Count=2 Timer=10 Done=0 Restart=0 Enable=1
+T=85000 State=WASH Count=3 Timer=10 Done=0 Restart=0 Enable=1
+T=95000 State=WASH Count=4 Timer=10 Done=0 Restart=0 Enable=1
+T=105000 State=WASH Count=5 Timer=10 Done=0 Restart=0 Enable=1
+T=115000 State=WASH Count=6 Timer=10 Done=0 Restart=0 Enable=1
+T=125000 State=WASH Count=7 Timer=10 Done=0 Restart=0 Enable=1
+T=135000 State=WASH Count=8 Timer=10 Done=0 Restart=0 Enable=1
+T=145000 State=WASH Count=9 Timer=10 Done=1 Restart=1 Enable=1
+T=155000 State=DRAIN_AFTER_WASH Busy=1 Fill=0 Drain=1 Wash=0 Spin=0 Done=0 Error=0
+T=155000 State=DRAIN_AFTER_WASH Count=0 Timer=3 Done=0 Restart=0 Enable=1
+[156000] PASS : Entered DRAIN_AFTER_WASH
+[156000] PASS : Fill Valve
+[156000] PASS : Drain Valve
+[156000] PASS : Wash Motor
+[156000] PASS : Spin Motor
+[156000] PASS : Busy
+[156000] PASS : Done
+[156000] PASS : Error
+[156000] PASS : Door Lock
+[156000] PASS : Timer Enable
+T=165000 State=DRAIN_AFTER_WASH Count=1 Timer=3 Done=0 Restart=0 Enable=1
+T=175000 State=DRAIN_AFTER_WASH Count=2 Timer=3 Done=1 Restart=1 Enable=1
+T=185000 State=FILL_RINSE Busy=1 Fill=1 Drain=0 Wash=0 Spin=0 Done=0 Error=0
+T=185000 State=FILL_RINSE Count=0 Timer=0 Done=0 Restart=1 Enable=0
+[186000] PASS : Entered FILL_RINSE
+[186000] PASS : Fill Valve
+[186000] PASS : Drain Valve
+[186000] PASS : Wash Motor
+[186000] PASS : Spin Motor
+[186000] PASS : Busy
+[186000] PASS : Done
+[186000] PASS : Error
+[186000] PASS : Door Lock
+T=195000 State=RINSE Busy=1 Fill=0 Drain=0 Wash=1 Spin=0 Done=0 Error=0
+T=195000 State=RINSE Count=0 Timer=4 Done=0 Restart=0 Enable=1
+[196000] PASS : Entered RINSE
+[196000] PASS : Fill Valve
+[196000] PASS : Drain Valve
+[196000] PASS : Wash Motor
+[196000] PASS : Spin Motor
+[196000] PASS : Busy
+[196000] PASS : Done
+[196000] PASS : Error
+[196000] PASS : Door Lock
+[196000] PASS : Timer Enable
+T=205000 State=RINSE Count=1 Timer=4 Done=0 Restart=0 Enable=1
+T=215000 State=RINSE Count=2 Timer=4 Done=0 Restart=0 Enable=1
+T=225000 State=RINSE Count=3 Timer=4 Done=1 Restart=1 Enable=1
+T=235000 State=DRAIN_AFTER_RINSE Busy=1 Fill=0 Drain=1 Wash=0 Spin=0 Done=0 Error=0
+T=235000 State=DRAIN_AFTER_RINSE Count=0 Timer=3 Done=0 Restart=0 Enable=1
+[236000] PASS : Entered DRAIN_AFTER_RINSE
+[236000] PASS : Fill Valve
+[236000] PASS : Drain Valve
+[236000] PASS : Wash Motor
+[236000] PASS : Spin Motor
+[236000] PASS : Busy
+[236000] PASS : Done
+[236000] PASS : Error
+[236000] PASS : Door Lock
+[236000] PASS : Timer Enable
+T=245000 State=DRAIN_AFTER_RINSE Count=1 Timer=3 Done=0 Restart=0 Enable=1
+T=255000 State=DRAIN_AFTER_RINSE Count=2 Timer=3 Done=1 Restart=1 Enable=1
+T=265000 State=SPIN Busy=1 Fill=0 Drain=0 Wash=0 Spin=1 Done=0 Error=0
+T=265000 State=SPIN Count=0 Timer=5 Done=0 Restart=0 Enable=1
+[266000] PASS : Entered SPIN
+[266000] PASS : Fill Valve
+[266000] PASS : Drain Valve
+[266000] PASS : Wash Motor
+[266000] PASS : Spin Motor
+[266000] PASS : Busy
+[266000] PASS : Done
+[266000] PASS : Error
+[266000] PASS : Door Lock
+[266000] PASS : Timer Enable
+T=275000 State=SPIN Count=1 Timer=5 Done=0 Restart=0 Enable=1
+T=285000 State=SPIN Count=2 Timer=5 Done=0 Restart=0 Enable=1
+T=295000 State=SPIN Count=3 Timer=5 Done=0 Restart=0 Enable=1
+T=305000 State=SPIN Count=4 Timer=5 Done=1 Restart=0 Enable=1
+T=315000 State=DONE Busy=0 Fill=0 Drain=0 Wash=0 Spin=0 Done=1 Error=0
+T=315000 State=DONE Count=4 Timer=0 Done=0 Restart=0 Enable=0
+[316000] PASS : Entered DONE
+[316000] PASS : Fill Valve
+[316000] PASS : Drain Valve
+[316000] PASS : Wash Motor
+[316000] PASS : Spin Motor
+[316000] PASS : Busy
+[316000] PASS : Done
+[316000] PASS : Error
+[316000] PASS : Door Lock
+T=325000 State=IDLE Busy=0 Fill=0 Drain=0 Wash=0 Spin=0 Done=0 Error=0
+T=325000 State=IDLE Count=4 Timer=0 Done=0 Restart=0 Enable=0
+[326000] PASS : Returned to IDLE
+[326000] PASS : Fill Valve
+[326000] PASS : Drain Valve
+[326000] PASS : Wash Motor
+[326000] PASS : Spin Motor
+[326000] PASS : Busy
+[326000] PASS : Done
+[326000] PASS : Error
+[326000] PASS : Door Lock
+
+========================================
+TC1 PASSED
+
+========================================
+TC2 : PAUSE / RESUME
+T=326000 State=IDLE Count=0 Timer=0 Done=0 Restart=0 Enable=0
+T=375000 State=FILL_WASH Busy=1 Fill=1 Drain=0 Wash=0 Spin=0 Done=0 Error=0
+T=375000 State=FILL_WASH Count=0 Timer=0 Done=0 Restart=0 Enable=0
+T=376000 State=FILL_WASH Count=0 Timer=0 Done=0 Restart=1 Enable=0
+T=385000 State=WASH Busy=1 Fill=0 Drain=0 Wash=1 Spin=0 Done=0 Error=0
+T=385000 State=WASH Count=0 Timer=10 Done=0 Restart=0 Enable=1
+[386000] PASS : Entered WASH
+[386000] PASS : Fill Valve
+[386000] PASS : Drain Valve
+[386000] PASS : Wash Motor
+[386000] PASS : Spin Motor
+[386000] PASS : Busy
+[386000] PASS : Done
+[386000] PASS : Error
+[386000] PASS : Door Lock
+[386000] PASS : Timer Enabled
+T=395000 State=PAUSE Busy=1 Fill=0 Drain=0 Wash=0 Spin=0 Done=0 Error=0
+T=395000 State=PAUSE Count=1 Timer=0 Done=0 Restart=0 Enable=0
+[396000] PASS : Entered PAUSE
+[435000] PASS : Timer Frozen During Pause
+[435000] PASS : Fill Valve
+[435000] PASS : Drain Valve
+[435000] PASS : Wash Motor
+[435000] PASS : Spin Motor
+[435000] PASS : Busy
+[435000] PASS : Done
+[435000] PASS : Error
+[435000] PASS : Door Lock
+[435000] PASS : Timer Disabled
+T=445000 State=WASH Busy=1 Fill=0 Drain=0 Wash=1 Spin=0 Done=0 Error=0
+T=445000 State=WASH Count=1 Timer=10 Done=0 Restart=0 Enable=1
+[455000] PASS : Timer Continued After Resume
+[455000] PASS : Returned To WASH
+[455000] PASS : Fill Valve
+[455000] PASS : Drain Valve
+[455000] PASS : Wash Motor
+[455000] PASS : Spin Motor
+[455000] PASS : Busy
+[455000] PASS : Done
+[455000] PASS : Error
+[455000] PASS : Door Lock
+[455000] PASS : Timer Enabled
+T=455000 State=WASH Count=2 Timer=10 Done=0 Restart=0 Enable=1
+T=465000 State=WASH Count=3 Timer=10 Done=0 Restart=0 Enable=1
+T=475000 State=WASH Count=4 Timer=10 Done=0 Restart=0 Enable=1
+T=485000 State=WASH Count=5 Timer=10 Done=0 Restart=0 Enable=1
+T=495000 State=WASH Count=6 Timer=10 Done=0 Restart=0 Enable=1
+T=505000 State=WASH Count=7 Timer=10 Done=0 Restart=0 Enable=1
+T=515000 State=WASH Count=8 Timer=10 Done=0 Restart=0 Enable=1
+T=525000 State=WASH Count=9 Timer=10 Done=1 Restart=1 Enable=1
+T=535000 State=DRAIN_AFTER_WASH Busy=1 Fill=0 Drain=1 Wash=0 Spin=0 Done=0 Error=0
+T=535000 State=DRAIN_AFTER_WASH Count=0 Timer=3 Done=0 Restart=0 Enable=1
+T=545000 State=DRAIN_AFTER_WASH Count=1 Timer=3 Done=0 Restart=0 Enable=1
+T=555000 State=DRAIN_AFTER_WASH Count=2 Timer=3 Done=1 Restart=1 Enable=1
+T=565000 State=FILL_RINSE Busy=1 Fill=1 Drain=0 Wash=0 Spin=0 Done=0 Error=0
+T=565000 State=FILL_RINSE Count=0 Timer=0 Done=0 Restart=1 Enable=0
+T=575000 State=RINSE Busy=1 Fill=0 Drain=0 Wash=1 Spin=0 Done=0 Error=0
+T=575000 State=RINSE Count=0 Timer=4 Done=0 Restart=0 Enable=1
+[576000] PASS : Entered RINSE
+[576000] PASS : Fill Valve
+[576000] PASS : Drain Valve
+[576000] PASS : Wash Motor
+[576000] PASS : Spin Motor
+[576000] PASS : Busy
+[576000] PASS : Done
+[576000] PASS : Error
+[576000] PASS : Door Lock
+T=585000 State=PAUSE Busy=1 Fill=0 Drain=0 Wash=0 Spin=0 Done=0 Error=0
+T=585000 State=PAUSE Count=1 Timer=0 Done=0 Restart=0 Enable=0
+[586000] PASS : Entered PAUSE Again
+[586000] PASS : Fill Valve
+[586000] PASS : Drain Valve
+[586000] PASS : Wash Motor
+[586000] PASS : Spin Motor
+[586000] PASS : Busy
+[586000] PASS : Done
+[586000] PASS : Error
+[586000] PASS : Door Lock
+[586000] PASS : Timer Disabled
+T=595000 State=RINSE Busy=1 Fill=0 Drain=0 Wash=1 Spin=0 Done=0 Error=0
+T=595000 State=RINSE Count=1 Timer=4 Done=0 Restart=0 Enable=1
+[596000] PASS : Returned To RINSE
+[596000] PASS : Fill Valve
+[596000] PASS : Drain Valve
+[596000] PASS : Wash Motor
+[596000] PASS : Spin Motor
+[596000] PASS : Busy
+[596000] PASS : Done
+[596000] PASS : Error
+[596000] PASS : Door Lock
+[596000] PASS : Timer Enabled
+T=605000 State=RINSE Count=2 Timer=4 Done=0 Restart=0 Enable=1
+T=615000 State=RINSE Count=3 Timer=4 Done=1 Restart=1 Enable=1
+T=625000 State=DRAIN_AFTER_RINSE Busy=1 Fill=0 Drain=1 Wash=0 Spin=0 Done=0 Error=0
+T=625000 State=DRAIN_AFTER_RINSE Count=0 Timer=3 Done=0 Restart=0 Enable=1
+T=635000 State=DRAIN_AFTER_RINSE Count=1 Timer=3 Done=0 Restart=0 Enable=1
+T=645000 State=DRAIN_AFTER_RINSE Count=2 Timer=3 Done=1 Restart=1 Enable=1
+T=655000 State=SPIN Busy=1 Fill=0 Drain=0 Wash=0 Spin=1 Done=0 Error=0
+T=655000 State=SPIN Count=0 Timer=5 Done=0 Restart=0 Enable=1
+T=665000 State=SPIN Count=1 Timer=5 Done=0 Restart=0 Enable=1
+T=675000 State=SPIN Count=2 Timer=5 Done=0 Restart=0 Enable=1
+T=685000 State=SPIN Count=3 Timer=5 Done=0 Restart=0 Enable=1
+T=695000 State=SPIN Count=4 Timer=5 Done=1 Restart=0 Enable=1
+T=705000 State=DONE Busy=0 Fill=0 Drain=0 Wash=0 Spin=0 Done=1 Error=0
+T=705000 State=DONE Count=4 Timer=0 Done=0 Restart=0 Enable=0
+T=715000 State=IDLE Busy=0 Fill=0 Drain=0 Wash=0 Spin=0 Done=0 Error=0
+T=715000 State=IDLE Count=4 Timer=0 Done=0 Restart=0 Enable=0
+[716000] PASS : Returned To IDLE
+[716000] PASS : Fill Valve
+[716000] PASS : Drain Valve
+[716000] PASS : Wash Motor
+[716000] PASS : Spin Motor
+[716000] PASS : Busy
+[716000] PASS : Done
+[716000] PASS : Error
+[716000] PASS : Door Lock
+
+========================================
+TC2 PASSED
+
+========================================
+TC3 : DOOR OPEN FAULT
+T=716000 State=IDLE Count=0 Timer=0 Done=0 Restart=0 Enable=0
+T=765000 State=FILL_WASH Busy=1 Fill=1 Drain=0 Wash=0 Spin=0 Done=0 Error=0
+T=765000 State=FILL_WASH Count=0 Timer=0 Done=0 Restart=0 Enable=0
+T=766000 State=FILL_WASH Count=0 Timer=0 Done=0 Restart=1 Enable=0
+T=775000 State=WASH Busy=1 Fill=0 Drain=0 Wash=1 Spin=0 Done=0 Error=0
+T=775000 State=WASH Count=0 Timer=10 Done=0 Restart=0 Enable=1
+[776000] PASS : Entered WASH
+T=785000 State=ERROR Busy=0 Fill=0 Drain=0 Wash=0 Spin=0 Done=0 Error=1
+T=785000 State=ERROR Count=1 Timer=0 Done=0 Restart=0 Enable=0
+[786000] PASS : Entered ERROR
+[786000] PASS : Fill Valve
+[786000] PASS : Drain Valve
+[786000] PASS : Wash Motor
+[786000] PASS : Spin Motor
+[786000] PASS : Busy
+[786000] PASS : Done
+[786000] PASS : Error
+[786000] PASS : Door Lock
+[835000] PASS : Still In ERROR
+T=835000 State=IDLE Busy=0 Fill=0 Drain=0 Wash=0 Spin=0 Done=0 Error=0
+T=835000 State=IDLE Count=0 Timer=0 Done=0 Restart=0 Enable=0
+[865000] PASS : Returned To IDLE
+[865000] PASS : Fill Valve
+[865000] PASS : Drain Valve
+[865000] PASS : Wash Motor
+[865000] PASS : Spin Motor
+[865000] PASS : Busy
+[865000] PASS : Done
+[865000] PASS : Error
+[865000] PASS : Door Lock
+
+========================================
+TC3 PASSED
+
+========================================
+TC4 : RESET DURING OPERATION
+T=915000 State=FILL_WASH Busy=1 Fill=1 Drain=0 Wash=0 Spin=0 Done=0 Error=0
+T=915000 State=FILL_WASH Count=0 Timer=0 Done=0 Restart=0 Enable=0
+T=916000 State=FILL_WASH Count=0 Timer=0 Done=0 Restart=1 Enable=0
+T=925000 State=WASH Busy=1 Fill=0 Drain=0 Wash=1 Spin=0 Done=0 Error=0
+T=925000 State=WASH Count=0 Timer=10 Done=0 Restart=0 Enable=1
+[926000] PASS : Entered WASH
+[926000] PASS : Fill Valve
+[926000] PASS : Drain Valve
+[926000] PASS : Wash Motor
+[926000] PASS : Spin Motor
+[926000] PASS : Busy
+[926000] PASS : Done
+[926000] PASS : Error
+[926000] PASS : Door Lock
+[926000] PASS : Timer Enabled
+T=926000 State=IDLE Busy=0 Fill=0 Drain=0 Wash=0 Spin=0 Done=0 Error=0
+T=926000 State=IDLE Count=0 Timer=0 Done=0 Restart=0 Enable=0
+[928000] PASS : Returned To IDLE After Reset
+[928000] PASS : Fill Valve
+[928000] PASS : Drain Valve
+[928000] PASS : Wash Motor
+[928000] PASS : Spin Motor
+[928000] PASS : Busy
+[928000] PASS : Done
+[928000] PASS : Error
+[928000] PASS : Door Lock
+[928000] PASS : Mode Cleared
+[928000] PASS : Timer Disabled
+[928000] PASS : Timer Done Cleared
+[945000] PASS : Stayed In IDLE
+
+========================================
+TC4 PASSED
+$finish called at time : 945 ns : File "E:/projects_OF_VARILOG/Washing Machine/top_module.v" Line 856
